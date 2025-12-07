@@ -1,4 +1,4 @@
-package com.madhav.paysenseai.DTO;
+package com.madhav.SafeTransactAI.DTO;
 
 import lombok.Data;
 import java.time.LocalDateTime;

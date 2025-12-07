@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.madhav</groupId>
-	<artifactId>paysenseai</artifactId>
+	<artifactId>SafeTransactAI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>PaySenseAI</name>
+	<name>SafeTransactAI</name>
 	<description>Real-Time Payment Failure &amp; Risk Engine</description>
 	<url/>
 	<licenses>
@@ -60,6 +60,12 @@
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
 	<build>
